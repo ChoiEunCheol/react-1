@@ -21,7 +21,9 @@ module.exports = {
     ],
   },
   devServer: {
-    contentBase: path.resolve(__dirname, 'dist'),
+    static: {
+      directory: path.join(__dirname, 'public'), // 변경된 부분
+    },
     port: 3000,
   },
 };
