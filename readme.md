@@ -10,3 +10,6 @@ npm install @babel/core @babel/preset-env @babel/preset-react babel-loader --sav
  : Babel 설치 
 npm install webpack webpack-cli webpack-dev-server --save-dev
  : webpack 설치
+
+npm install style-loader css-loader --save-dev
+ : css를 번들링하기 위한 로더 설치
