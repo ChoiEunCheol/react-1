@@ -18,6 +18,10 @@ module.exports = {
           },
         },
       },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'], // 추가된 부분
+      },
     ],
   },
   devServer: {
