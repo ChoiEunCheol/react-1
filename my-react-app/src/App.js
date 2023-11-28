@@ -3,6 +3,7 @@ import './App.css';
 import HelloWorld from './components/HelloWorld';
 import Counter from './components/Counter';
 import NameForm from './components/NameForm';
+import DataFetching from './components/DataFetching';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <HelloWorld />
         <Counter />
         <NameForm />
+        <DataFetching />
       </header>
     </div>
   )
