@@ -7,18 +7,7 @@ import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 
-// function App() {
-//   return (
-//     <div className = "App">
-//       <header className='App-header'>
-//         <HelloWorld />
-//         <Counter />
-//         <NameForm />
-//         <DataFetching />
-//       </header>
-//     </div>
-//   )
-// }
+
 
 const App = () => {
   return (
