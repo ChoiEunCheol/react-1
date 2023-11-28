@@ -6,4 +6,5 @@ npm init -y
  : package.json 생성
 npm install react react-dom
  : react 및 react-dom 설치
-
+npm install @babel/core @babel/preset-env @babel/preset-react babel-loader --save-dev
+ : Babel 설치 
