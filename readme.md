@@ -8,3 +8,5 @@ npm install react react-dom
  : react 및 react-dom 설치
 npm install @babel/core @babel/preset-env @babel/preset-react babel-loader --save-dev
  : Babel 설치 
+npm install webpack webpack-cli webpack-dev-server --save-dev
+ : webpack 설치
