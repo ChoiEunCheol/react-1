@@ -3,9 +3,12 @@ import Test from './Test';
 
 class App extends Component {
   render() {
+    const style = {
+      backgroundColor : 'black'
+    }
     return (
-    	<h1>Hello World!</h1>
-        <Test />
+    	<><h1 style={style}>Hello World!</h1>
+        <Test /></>
     );
   }
 }
