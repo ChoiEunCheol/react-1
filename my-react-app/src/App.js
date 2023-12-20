@@ -1,11 +1,12 @@
+// App.js
 import React from 'react';
-import MyComponent from './MyComponent';
+import ParentComponent from './ParentComponent';
 
 function App() {
   return (
     <div>
-      <h1>Hello React App!</h1>
-      <MyComponent />
+      <h1>Main App</h1>
+      <ParentComponent />
     </div>
   );
 }
